@@ -42,7 +42,7 @@ const Urlgenerator = () => {
 
   const onClickHandler = () => {
     setGenerated(
-      `https://${postback.url}?pxtt[v]=2&pxtt[erp]=ViewContent&pxtt[id]=${postback.pixel}&network=tiktok&site=direct&kw1=${postback.kw1}kw2=${postback.kw2}kw3=${postback.kw3}kw4=${postback.kw4}&cttt[id]=${postback.pixel}&cttt[alias]=${postback.token}`
+      `https://${postback.url}?pxtt[v]=2&pxtt[erp]=ViewContent&pxtt[id]=${postback.pixel}&network=tiktok&site=direct&kw1=${postback.kw1}&kw2=${postback.kw2}&kw3=${postback.kw3}&kw4=${postback.kw4}&cttt[id]=${postback.pixel}&cttt[alias]=${postback.token}`
     );
   };
   return (
